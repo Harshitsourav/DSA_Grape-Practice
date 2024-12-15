@@ -16,6 +16,7 @@ public class NoOfConnectedIsland {
         }
         System.out.println(count);
     }
+    // Function for BFS call
     private static void bfs (int row, int col, int[][] adj, int [][] vis){
         Queue<Pair> q = new LinkedList<Pair>();
         q.add(new Pair(row,col));
